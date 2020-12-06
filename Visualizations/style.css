@@ -1,0 +1,95 @@
+/*navbar*/
+a.navbar-brand{
+    margin-left: 1px;
+    padding: 10px;
+    background-color: teal;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+/*header*/
+h3{
+    color: teal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    border: none;
+}
+
+/*Images*/
+.img-thumbnail{
+    padding:10px;
+    border: none;
+}
+
+/*Text*/
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    padding: 10px;
+}
+
+/*background*/
+body{
+    background-color: rgb(224, 229, 235);
+}
+.col-md-12{
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom:40px;
+}
+
+/*image border*/
+.pic{
+    border: 3px solid teal;
+}
+
+/*navbar*/
+.navbar{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 40px;
+}
+
+.nav-item.dropdown.show {
+    background-color: white;
+}
+
+.dropdown-menu{
+    margin: 0;
+}
+
+/*Content*/
+.content {
+    padding-top: 50px;
+    padding-bottom: 80px;
+    overflow: hidden;
+}
+
+.content.bg-white{
+    margin-top: 15px;
+}
+
+/* small screen adjustments*/
+@media(max-width:767px){
+    .navbar.bg-light{
+        background-color: teal)!important;    
+    }
+
+    .navbar-collapse{
+        background-color: white;
+    }
+    .navbar{
+        padding:inherit;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
